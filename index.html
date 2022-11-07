@@ -3,118 +3,394 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
     />
+    <link
+      href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <title>Pilgrim's Progress</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example bg-dark">
+    <!-- Example Code -->
+
+    <div class="collapse" id="navbarToggleExternalContent" style="">
+      <div class="bg-dark p-4">
+        <h5 class="text-white h4">
+          <img
+            src="https://uploads.codesandbox.io/uploads/user/5fc6f577-026d-4522-9766-a2cac05b79ce/wR2Z-KingStone.png"
+            alt=""
+            width="100px"
+            height="32px"
+          />
+        </h5>
+        <a class="navbar-brand" href="#"></a>
+        <h6 class="text-white h6" style="">Full of Eyes</h6>
+      </div>
+    </div>
     <nav class="navbar navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-        <img src="https://uploads.codesandbox.io/uploads/user/5fc6f577-026d-4522-9766-a2cac05b79ce/wR2Z-KingStone.png" alt="KingStone" width="150%" height="24">
-        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
       </div>
     </nav>
-  </head>
 
-  <body style="background-color: black;">
-    <h1></h1>
-    <div class="ratio ratio-16x9">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube-nocookie.com/embed/cnCrlYALo14"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </div>
-    <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Pilgrim's progress | Episode 01 | The City of Destruction | John Rhys-Davies | Ben Price
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-          A 16-episode journey through the story of The Pilgrim's Progress. Part 1 of 16. Subjected to  perpetual misery and decay, the residents of the City of Destruction toil day in and day out with no hope and no end in sight. Until one day when Christian Pilgrim hears about a glorious city,  the Celestial City, and acquires the Book and a map. Trusting what he reads in the Book (the Bible), Christian begins a journey that will change his life forever… 
+    <!-- End Example Code -->
 
-A production of RevelationMedia, based on John Bunyan’s masterpiece, this powerful allegory  will help families face the trials and temptations of the Christian Life. RevelationMedia is committed to providing quality Christian content to the US and the ends of the earth for FREE.  Donate today to support the distribution and translation of content like The Pilgrim’s Progress today at www.RevelationMedia.com.
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <div class="ratio ratio-16x9">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/cnCrlYALo14"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h2
+          class="accordion-header text-bg-dark p-3"
+          id="flush-headingOne"
+          style="accordion-color: black"
+        >
+          <button
+            class="accordion-button collapsed text-bg-dark p-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne"
+            aria-expanded="false"
+            aria-controls="flush-collapseOne"
+          >
+            Pilgrim's progress | Episode 01 | The City of Destruction | John
+            Rhys-Davies | Ben Price
+          </button>
+        </h2>
+        <div
+          id="flush-collapseOne"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body position-relative text-bg-dark p-3">
+            A 16-episode journey through the story of The Pilgrim's Progress.
+            <br />
+            Part 1 of 16. Subjected to perpetual misery and decay, the residents
+            of the City of Destruction toil day in and day out with no hope and
+            no end in sight. Until one day when Christian Pilgrim hears about a
+            glorious city, the Celestial City, and acquires the Book and a map.
+            Trusting what he reads in the Book (the Bible), Christian begins a
+            journey that will change his life forever… A production of
+            RevelationMedia, based on John Bunyan’s masterpiece, this powerful
+            allegory will help families face the trials and temptations of the
+            Christian Life. RevelationMedia is committed to providing quality
+            Christian content to the US and the ends of the earth for FREE.
+            Donate today to support the distribution and translation of content
+            like The Pilgrim’s Progress today at
+            <a href="www.RevelationMedia.com">www.RevelationMedia.com.</a>
+            <br />
+            <br />
+            Director: Robert Fernandez Starring: John Rhys-Davies, Ben Price,
+            Kristyn Getty, David Thorpe Executive Producer: Steve Clear
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="ratio ratio-16x9">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/ijy8HvPqz6Y"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button
+            class="accordion-button collapsed text-bg-dark p-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo"
+            aria-expanded="false"
+            aria-controls="flush-collapseTwo"
+          >
+            Pilgrim's Progress | Episode 02 | Forbidden Forest | John
+            Rhys-Davies | Ben Price
+          </button>
+        </h2>
+        <div
+          id="flush-collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body text-bg-dark p-3">
+            Aug 14, 2021 A 16-episode journey through the story of The Pilgrim's
+            <br />
+            Progress. Part 2 of 16. As Christian enters the Forbidden Forest,
+            the unbearable burden he carries becomes visible. “What should I
+            do?” Christian cries out. Just then, a man named Evangelist arrives
+            and directs him on the straight path toward the Celestial City by
+            way of the Gate. Will Christian heed Evangelist’s advice? A
+            production of RevelationMedia, based on John Bunyan’s masterpiece,
+            this powerful allegory will help families face the trials and
+            temptations of the Christian Life. RevelationMedia is committed to
+            providing quality Christian content to the US and the ends of the
+            earth for FREE. Donate today to support the distribution and
+            translation of content like The Pilgrim’s Progress today at
+            <br />
+            <a href="www.RevelationMedia.com">www.RevelationMedia.com.</a>
+            <br />
+            <br />
+            Director: Robert Fernandez Starring: John Rhys-Davies, Ben Price,
+            Kristyn Getty, David Thorpe Executive Producer: Steve Clear
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="ratio ratio-16x9">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/E0bDA6ns2aQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button
+            class="accordion-button collapsed text-bg-dark p-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree"
+            aria-expanded="false"
+            aria-controls="flush-collapseThree"
+          >
+            Pilgrim's Progress | Episode 03 | Swamp of Despondency | John
+            Rhys-Davies | Ben Price
+          </button>
+        </h2>
+        <div
+          id="flush-collapseThree"
+          class="accordion-collapse collapse text-bg-dark p-3"
+          aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            Aug 14, 2021
+            <br />
+            A 16-episode journey through the story of The Pilgrim's Progress.
+            Part 3 of 16. Two friends, Pliable and Obstinate, intercept
+            Christian as he continues on his path toward the Celestial City.
+            Unable to deter Christian from the path, Obstinate storms back to
+            the City of Destruction. Pliable, on the other hand, decides to
+            follow Christian, and—much to their surprise—they end up tumbling
+            into the depths of the Swamp of Despondency. Will this murky
+            predicament deter the pilgrims from traveling further? A production
+            of RevelationMedia, based on John Bunyan’s masterpiece, this
+            powerful allegory will help families face the trials and temptations
+            of the Christian Life. RevelationMedia is committed to providing
+            quality Christian content to the US and the ends of the earth for
+            FREE. Donate today to support the distribution and translation of
+            content like The Pilgrim’s Progress today at
+            <a href="www.RevelationMedia.com">www.RevelationMedia.com.</a>
+            <br />
+            <br />
+            Director: Robert Fernandez Starring: John Rhys-Davies, Ben Price,
+            Kristyn Getty, David Thorpe Executive Producer: Steve Clear
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="ratio ratio-16x9">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/faq6ptuOtqo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h2 class="accordion-header" id="flush-headingFour">
+          <button
+            class="accordion-button collapsed text-bg-dark p-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFour"
+            aria-expanded="false"
+            aria-controls="flush-collapseFour"
+          >
+            Pilgrim's Progress | Episode 04 | Worldly Woods | John Rhys-Davies |
+            Ben Price
+          </button>
+        </h2>
+        <div
+          id="flush-collapseFour"
+          class="accordion-collapse collapse text-bg-dark p-3"
+          aria-labelledby="flush-headingFour"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            Aug 14, 2021
+            <br />
+            A 16-episode journey through the story of The Pilgrim's Progress.
+            Part 4 of 16. With fierce determination, Christian leaves Help and
+            continues his trek on the straight path. His burden seemed to be
+            growing bigger by the hour. Exhausted and frustrated, Christian
+            collapses on the path, but when he looks up, he sees a strange man
+            named Worldly Wiseman who has an easier path in mind. A production
+            of RevelationMedia, based on John Bunyan’s masterpiece, this
+            powerful allegory will help families face the trials and temptations
+            of the Christian Life. RevelationMedia is committed to providing
+            quality Christian content to the US and the ends of the earth for
+            FREE. Donate today to support the distribution and translation of
+            content like The Pilgrim’s Progress today at
+            <a href="www.RevelationMedia.com">www.RevelationMedia.com.</a>
+            <br />
+            <br />
+            Director: Robert Fernandez Starring: John Rhys-Davies, Ben Price,
+            Kristyn Getty, David Thorpe Executive Producer: Steve Clear
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <div class="ratio ratio-16x9">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/a5PdsBQToyU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h2 class="accordion-header" id="flush-headingFive">
+          <button
+            class="accordion-button collapsed text-bg-dark p-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFive"
+            aria-expanded="false"
+            aria-controls="flush-collapseFive"
+          >
+            Pilgrim's Progress | Episode 05 | Legality Hill | John Rhys-Davies |
+            Ben Price
+          </button>
+        </h2>
+        <div
+          id="flush-collapseFive"
+          class="accordion-collapse collapse text-bg-dark p-3"
+          aria-labelledby="flush-headingFive"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            Aug 14, 2021
+            <br />
+            A 16-episode journey through the story of The Pilgrim's Progress.
+            Part 5 of 16. In the City of Morality, Christian struggles to make
+            his way up Legality Hill. Facing the terrifying stone judge,
+            Christian attempts to follow every commandment he created—all with
+            the hope that his burden would be removed. How will Christian get
+            out of this predicament? Will he end up crushed by the weight of his
+            inability to follow all that Legality demands of him? A production
+            of RevelationMedia, based on John Bunyan’s masterpiece, this
+            powerful allegory will help families face the trials and temptations
+            of the Christian Life. RevelationMedia is committed to providing
+            quality Christian content to the US and the ends of the earth for
+            FREE. Donate today to support the distribution and translation of
+            content like The Pilgrim’s Progress today at
+            <br />
+            <br />
+            Director: Robert Fernandez Starring: John Rhys-Davies, Ben Price,
+            Kristyn Getty, David Thorpe Executive Producer: Steve Cleary
+            <a href="www.RevelationMedia.com">www.RevelationMedia.com.</a>
+            <br />
+            <br />
+            Director: Robert Fernandez Starring: John Rhys-Davies, Ben Price,
+            Kristyn Getty, David Thorpe Executive Producer: Steve Clear
+          </div>
+        </div>
+      </div>
 
-Director: Robert Fernandez
-Starring: John Rhys-Davies, Ben Price,  Kristyn Getty, David Thorpe 
-Executive Producer: Steve Cleary
+      <div class="accordion-item">
+        <div class="ratio ratio-16x9">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/XpFS2vsF3Gs"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h2 class="accordion-header" id="flush-headingSix">
+          <button
+            class="accordion-button collapsed text-bg-dark p-3"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseSix"
+            aria-expanded="false"
+            aria-controls="flush-collapseSix"
+          >
+            Pilgrim's Progress | Episode 06 | The Gate | John Rhys-Davies | Ben
+            Price
+          </button>
+        </h2>
+        <div
+          id="flush-collapseSix"
+          class="accordion-collapse collapse text-bg-dark p-3"
+          aria-labelledby="flush-headingSix"
+          data-bs-parent="#accordionFlushExample"
+        >
+          <div class="accordion-body">
+            Aug 14, 2021
+            <br />
+            A 16-episode journey through the story of The Pilgrim's Progress.
+            Part 6 of 16. Alone in the forest, Christian hears a rustle nearby.
+            Little did he know he would soon be confronted with Apollyon’s
+            demons, sent to deter him from getting to the Gate. But Christian
+            remembers that help is never far off, all he needs to do is ask. A
+            production of RevelationMedia, based on John Bunyan’s masterpiece,
+            this powerful allegory will help families face the trials and
+            temptations of the Christian Life. RevelationMedia is committed to
+            providing quality Christian content to the US and the ends of the
+            earth for FREE. Donate today to support the distribution and
+            translation of content like The Pilgrim’s Progress today at
+            <br />
+            <br />
+            Director: Robert Fernandez Starring: John Rhys-Davies, Ben Price,
+            Kristyn Getty, David Thorpe Executive Producer: Steve Cleary
+            <a href="www.RevelationMedia.com">www.RevelationMedia.com.</a>
+            <br />
+            <br />
+            Director: Robert Fernandez Starring: John Rhys-Davies, Ben Price,
+            Kristyn Getty, David Thorpe Executive Producer: Steve Clear
+          </div>
+        </div>
       </div>
     </div>
-    <div class="ratio ratio-16x9">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube-nocookie.com/embed/ijy8HvPqz6Y"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </div>
-    <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-Pilgrim's Progress | Episode 02 | Forbidden Forest | John Rhys-Davies | Ben Price
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        A 16-episode journey through the story of The Pilgrim's Progress. Part 2 of 16. As Christian  enters the Forbidden Forest, the unbearable burden he carries becomes visible. “What should I do?” Christian cries out. Just then, a man named Evangelist arrives and directs him on the  straight path toward the Celestial City by way of the Gate. Will Christian heed Evangelist’s  advice?  
 
-A production of RevelationMedia, based on John Bunyan’s masterpiece, this powerful allegory  will help families face the trials and temptations of the Christian Life. RevelationMedia is committed to providing quality Christian content to the US and the ends of the earth for FREE. Donate today to support the distribution and translation of content like The Pilgrim’s Progress today at www.RevelationMedia.com.
-
-Director: Robert Fernandez
-Starring: John Rhys-Davies, Ben Price,  Kristyn Getty, David Thorpe 
-Executive Producer: Steve Cleary
-      </div>
-    </div>
-    <h1></h1>
-    <div class="ratio ratio-16x9">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube-nocookie.com/embed/E0bDA6ns2aQ"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    </div>
-    <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-Pilgrim's Progress | Episode 03 | Swamp of Despondency | John Rhys-Davies | Ben Price
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        Aug 14, 2021
-A 16-episode journey through the story of The Pilgrim's Progress. Part 3 of 16. Two friends,  Pliable and Obstinate, intercept Christian as he continues on his path toward the Celestial City.  Unable to deter Christian from the path, Obstinate storms back to the City of Destruction.  Pliable, on the other hand, decides to follow Christian, and—much to their surprise—they end up tumbling into the depths of the Swamp of Despondency. Will this murky predicament deter  the pilgrims from traveling further?  
-
-A production of RevelationMedia, based on John Bunyan’s masterpiece, this powerful allegory will help families face the trials and temptations of the Christian Life. RevelationMedia is committed to providing quality Christian content to the US and the ends of the earth for FREE.  Donate today to support the distribution and translation of content like The Pilgrim’s Progress today at www.RevelationMedia.com.
-
-Director: Robert Fernandez
-Starring: John Rhys-Davies, Ben Price,  Kristyn Getty, David Thorpe 
-Executive Producer: Steve Cleary
-      </div>
-    </div>
-  </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
+    <!-- End Example Code -->
   </body>
 </html>
